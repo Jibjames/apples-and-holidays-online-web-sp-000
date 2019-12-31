@@ -63,7 +63,5 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   holiday_hash.each do |season, holiday|
     puts "#{season.to_s.capitalize}:"
-    binding.pry
-    puts "  #{holday.to_s.capitalize}: #{holiday[0]}"
   end
 end
