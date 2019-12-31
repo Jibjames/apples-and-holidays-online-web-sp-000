@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday.to_s.include?("_")
         holiday.to_s.split("_")
         holiday.each {|i|, i.capitalize!}
-        holiday.join(" ") 
+        holiday.join(" ")
       end
       puts "  #{holiday.to_s.capitalize}: #{supply.join(", ")}"
     end
